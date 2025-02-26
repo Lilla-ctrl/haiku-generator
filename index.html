@@ -3,30 +3,39 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/style.css">
     <title>AI Haiku Generator</title>
   </head>
   <body>
-    <h1>Welcome to the AI Haiku Generator</h1>
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="What should the haiku be about?"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <button type="submit">Submit</button>
-      </form>
-      <div>
-        A world of dew,
-        <br />
-        And within every dewdrop
-        <br />
-        A world of struggle.
-      </div>
-    </main>
+    <div class="container">
+      <h1>Welcome to the AI Haiku Generator</h1>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="What should the haiku be about?"
+            autofocus
+            required
+            autocomplete="off"
+          />
+          <br />
+          <button type="submit">Submit</button>
+        </form>
+        <div class="poem">
+          A world of dew,
+          <br />
+          And within every dewdrop
+          <br />
+          A world of struggle.
+        </div>
+      </main>
+    </div>
     <footer>
       <a href="https://github.com/Lilla-ctrl/haiku-generator">Open-source</a>
       code by <a href="https://github.com/Lilla-ctrl">Lilla</a>.

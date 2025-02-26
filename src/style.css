@@ -1,0 +1,60 @@
+body {
+  background: #a8e6cf;
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+}
+
+h1 {
+  padding: 60px 40px;
+}
+
+form {
+  margin: 10px;
+}
+
+input {
+  width: 80%;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 25px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+button {
+  background: #dcedc1;
+  margin-top: 15px;
+  padding: 10px 20px;
+  border-radius: 2ch;
+  font-size: 15px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+  background: #ffaaa5;
+  cursor: pointer;
+  transition: 200ms all ease-in-out;
+}
+
+footer {
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: #ffaaa5;
+}
+
+.container {
+  background: #ffd3b6;
+  width: 600px;
+  margin: 0 auto;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px #ffaaa5;
+}
+
+.poem {
+  padding: 40px;
+  font-size: 40px;
+}
