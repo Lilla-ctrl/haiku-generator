@@ -48,8 +48,8 @@ a {
 
 .container {
   background: #ffd3b6;
-  width: 600px;
-  margin: 0 auto;
+  width: 80%;
+  margin: 20px auto;
   border-radius: 10px;
   box-shadow: 5px 5px 5px #ffaaa5;
 }
