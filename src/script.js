@@ -14,7 +14,7 @@ function generatePoem(event) {
   let apiKey = "3et61975bb6d4a4foabfddbded4a0a8e";
   let prompt = `Generate a haiku about ${instructions.value}.`;
   let context =
-    "You are a creator of haikus.Generate a haiku and display it in three separate lines. Each line should be on its own line in the output, following the traditional haiku structure of 5 syllables in the first line, 7 syllables in the second, and 5 in the third. Do not combine all lines into one paragraph or sentence. Ensure each line is separated by a newline character (\n) or displayed as a distinct HTML element.";
+    "You are a haiku writer. Your task is to write haikus in basic HTML. Use the submitted word as the topic of your haiku. Wrap each line in a <div> tag (or <p> tag, if preferred), but ensure that the HTML code is properly formatted so that it is rendered correctly. Do not include any extra code characters such as html, or backticks ( ). Only the haiku text should be visible, with each line wrapped in its own tag.";
   let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
   axios.get(apiUrl).then(displayPoem);
