@@ -25,7 +25,7 @@ button {
   background: #dcedc1;
   margin-top: 15px;
   padding: 10px 20px;
-  border-radius: 2ch;
+  border-radius: 25px;
   font-size: 15px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
@@ -54,7 +54,7 @@ a {
   box-shadow: 5px 5px 5px #ffaaa5;
 }
 
-.poem {
+#poem {
   padding: 40px;
-  font-size: 40px;
+  font-size: 30px;
 }
